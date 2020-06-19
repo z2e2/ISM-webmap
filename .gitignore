@@ -1,0 +1,6 @@
+node_modules
+yarn.lock
+*.swp
+__pycache__/
+.DS_Store
+.prettierrc.js

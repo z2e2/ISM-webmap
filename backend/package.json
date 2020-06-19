@@ -1,0 +1,18 @@
+{
+  "name": "covidbackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "start:dev": "backpack --inspect=5858"
+  },
+  "dependencies": {
+    "backpack-core": "0.8.3",
+    "express": "4.16.4",
+    "graphql-tools": "4.0.4",
+    "graphql-yoga": "^1.18.3",
+    "lodash": "4.17.11",
+    "merge-graphql-schemas": "1.5.8"
+  }
+}

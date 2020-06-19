@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "backend",
+      "client"
+    ]
+  },
+  "scripts": {
+    "start:dev": "run-p --print-label start:dev:*",
+    "start:dev:backend": "yarn --cwd backend start:dev",
+    "start:dev:client": "yarn --cwd client start"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "apollo-codegen": "0.19.1",
+    "prettier": "1.16.1"
+  }
+}
