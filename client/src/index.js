@@ -92,7 +92,7 @@ function AppTabs() {
   return (
     <>
       <div style={{ backgroundColor: '#07294D', minHeight: '90px' }}>
-        <Grid container justify='center' alignItems='center' style={{ paddingTop: '15px' }}>
+        <Grid container justify='left' alignItems='left' style={{ paddingTop: '15px', marginLeft: '35px' }}>
           <Grid item display='flex' style={{ marginRight: '10px' }}>
             <a href="https://drexel.edu/engineering/">
               <img height='50px' src={engineeringGoldWhitePrimary} />
@@ -117,7 +117,7 @@ function AppTabs() {
       </div>
       {selectedTab == 0 && <Webmap />}
       {selectedTab == 1 && (
-        <div label='Acknowledgements' style={{marginLeft: '50px', marginRight: '50px'}}>
+        <div label='Acknowledgements' style={{marginLeft: '35px', marginRight: '35px'}}>
           <h3>Acknowledgements list</h3>
           <a
             href='https://raw.githubusercontent.com/EESI/ISM/master/acknowledgement_table.csv'
@@ -141,17 +141,11 @@ function AppTabs() {
             </a>{' '}
             website.
           </p>
-          <p align='justify'>Special thanks to:</p>
-          <ul align='justify' type='square'>
-            <li>Zhengqiao Zhao</li>
-            <li>Dr. Gail L. Rosen</li>
-            <li>Bahrad A. Sokhansanj</li>
-          </ul>
         </div>
       )}
       {selectedTab == 2 && (
-        <div label='Info' style={{marginLeft: '50px', marginRight: '50px'}}>
-          <h3>Project Information and Source Code</h3>
+        <div label='Info' style={{marginLeft: '35px', marginRight: '35px'}}>
+          <h3>Project Information</h3>
           <p />
           <p align='justify'>
             <b>
@@ -159,7 +153,7 @@ function AppTabs() {
             </b>{' '}
             &rarr;{' '}
             <a
-              href='https://github.com/Karavangelas/webmap'
+              href='https://github.com/z2e2/ISM-webmap'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -168,10 +162,10 @@ function AppTabs() {
             </a>
           </p>
           <p align='justify'>
-            The Covid-19 WebMap is a website created to display Covid-19 data in an interactive way.
+            The Covid-19 WebMap is a website created to display SARS-CoV-2 genotypes (ISMs) in an interactive way.
             This is done with the use of ISMs, which are described in the section below. The
             interactive WebMap allows users to click on a certain country on the map, and visualize
-            important Covid-19 data regarding a specific country. This data includes relative
+            important ISMs regarding a specific country. This data includes relative
             abundance graphs and ISM pie charts.
             <p />
             <p>Website contributors:</p>
@@ -181,6 +175,9 @@ function AppTabs() {
               <li>Dan Dunkers</li>
               <li>Karanveer Singh</li>
               <li>Dan Drzewicki</li>
+              <li>Zhengqiao Zhao</li>
+              <li>Bahrad A. Sokhansanj</li>
+              <li>Gail L. Rosen</li>
             </ul>
           </p>
 
@@ -201,6 +198,22 @@ function AppTabs() {
             COVID-19. The use of ISMs permits subtyping individual SARS-CoV-2 virus genomes, and in
             essence generating a signature that can be readily used to track viral evolution through
             geography and time.
+          </p>
+
+          <p />
+          <p align='justify'>
+            <b>
+              <u>Contact</u>
+            </b>{' '}
+          </p>
+          <p align='justify'>
+            This website is offered under the auspices of the College of Engineering, Drexel University
+            <p />
+            <p>IT Staff:</p>
+            <ul type='square'>
+              <li>Andrew Marx, marx@drexel.edu</li>
+              <li>Paul Dempsey, pfd36@drexel.edu</li>
+            </ul>
           </p>
         </div>
       )}
