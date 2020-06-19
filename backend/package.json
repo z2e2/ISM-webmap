@@ -12,7 +12,7 @@
     "express": "4.16.4",
     "graphql-tools": "4.0.4",
     "graphql-yoga": "^1.18.3",
-    "lodash": "4.17.11",
+    "lodash": "4.17.15",
     "merge-graphql-schemas": "1.5.8"
   }
 }
