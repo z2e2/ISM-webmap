@@ -12,7 +12,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import { Typography, Grid } from '@material-ui/core';
 import drexelWhiteLogo from './containers/drexelWhiteLogo.png';
-
+import engineeringGoldWhitePrimary from './containers/engineeringGoldWhitePrimary.png';
 import { withStyles } from '@material-ui/styles';
 require('./containers/tabs/styles.css');
 ReactDOM.render(
@@ -94,7 +94,9 @@ function AppTabs() {
       <div style={{ backgroundColor: '#07294D', minHeight: '90px' }}>
         <Grid container justify='center' alignItems='center' style={{ paddingTop: '15px' }}>
           <Grid item display='flex' style={{ marginRight: '10px' }}>
-            <img height='50px' src={drexelWhiteLogo} />
+            <a href="https://drexel.edu/engineering/">
+              <img height='50px' src={engineeringGoldWhitePrimary} />
+            </a>
           </Grid>
           <Grid item>
             <Typography align='left' style={titleStyle}>
@@ -115,7 +117,7 @@ function AppTabs() {
       </div>
       {selectedTab == 0 && <Webmap />}
       {selectedTab == 1 && (
-        <div label='Acknowledgements'>
+        <div label='Acknowledgements' style={{marginLeft: '50px', marginRight: '50px'}}>
           <h3>Acknowledgements list</h3>
           <a
             href='https://raw.githubusercontent.com/EESI/ISM/master/acknowledgement_table.csv'
@@ -148,7 +150,7 @@ function AppTabs() {
         </div>
       )}
       {selectedTab == 2 && (
-        <div label='Info'>
+        <div label='Info' style={{marginLeft: '50px', marginRight: '50px'}}>
           <h3>Project Information and Source Code</h3>
           <p />
           <p align='justify'>
