@@ -11,6 +11,13 @@ DOCKER_BUILDKIT=1 docker build --file Dockerfile --output build .
 ```
 Can check the website at [http://localhost:8000](http://localhost:8000) in the browser.
 
+#### Deploy on a server:
+```
+git clone https://github.com/z2e2/ISM-webmap.git
+sudo cp -rf ISM-webmap/build/* /var/www/html/
+sudo service nginx restart
+```
+
 #### Contributors:
 This project is originated from [webmap](https://github.com/Karavangelas/webmap)
 * Kleanthis Karavangelas
