@@ -6,6 +6,8 @@ docker build . -t webism
 docker images
 docker run -p 8000:80 webism
 docker rmi $(docker images -qf "dangling=true")
+## save the compiled files to host
+DOCKER_BUILDKIT=1 docker build --file Dockerfile --output build .
 ```
 Can check the website at [http://localhost:8000](http://localhost:8000) in the browser.
 

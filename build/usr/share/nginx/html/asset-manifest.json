@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.178bd844.chunk.css",
+    "main.js": "/static/js/main.f93bbf33.chunk.js",
+    "main.js.map": "/static/js/main.f93bbf33.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/js/2.b4589c39.chunk.js": "/static/js/2.b4589c39.chunk.js",
+    "static/js/2.b4589c39.chunk.js.map": "/static/js/2.b4589c39.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1a14d6c26f220fd5b03e2fe3df5a18ed.js": "/precache-manifest.1a14d6c26f220fd5b03e2fe3df5a18ed.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.178bd844.chunk.css.map": "/static/css/main.178bd844.chunk.css.map",
+    "static/js/2.b4589c39.chunk.js.LICENSE.txt": "/static/js/2.b4589c39.chunk.js.LICENSE.txt",
+    "static/media/drexelWhiteLogo.png": "/static/media/drexelWhiteLogo.4d053fb5.png",
+    "static/media/engineeringGoldWhitePrimary.png": "/static/media/engineeringGoldWhitePrimary.47413c96.png",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b85ec0.js",
+    "static/js/2.b4589c39.chunk.js",
+    "static/css/main.178bd844.chunk.css",
+    "static/js/main.f93bbf33.chunk.js"
+  ]
+}
