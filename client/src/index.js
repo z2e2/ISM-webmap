@@ -56,6 +56,7 @@ const tabStyling = {
 };
 
 const titleStyle = { fontSize: '16px', color: '#FFF', fontWeight: 500 };
+const placeholderStyle = { fontSize: '16px', color: '#07294D', fontWeight: 500 };
 
 const StyledTabs = withStyles({
   root: {
@@ -113,6 +114,11 @@ function AppTabs() {
               <StyledTab disableRipple style={tabStyling} value={1} label='Acknowledgements' />
               <StyledTab disableRipple style={tabStyling} value={2} label='About' />
             </StyledTabs>
+          </Grid>
+          <Grid item>
+            <Typography align='right' style={placeholderStyle}>
+              enabled by data from
+            </Typography>
           </Grid>
           <Grid item>
             <Typography align='right' style={titleStyle}>
