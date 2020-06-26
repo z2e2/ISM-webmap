@@ -256,7 +256,7 @@ const Map = ({ setTooltipContent, setSelectedContent }) => {
       <Dialog
         open={open}
         fullWidth={true}
-        maxWidth={'lg'}
+        maxWidth={'sm'}
         scroll={scroll}
         aria-labelledby='scroll-dialog-title'
         aria-describedby='scroll-dialog-description'
