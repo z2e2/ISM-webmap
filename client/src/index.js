@@ -100,10 +100,10 @@ function AppTabs() {
           </Grid>
           <Grid item>
             <Typography align='left' style={titleStyle}>
-              COVID-19
+              COVID-19 World Map
             </Typography>
             <Typography align='left' style={titleStyle}>
-              ISM World Map
+              Informative Subtype Marker
             </Typography>
           </Grid>
           <Grid item>
