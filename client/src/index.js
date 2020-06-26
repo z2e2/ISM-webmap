@@ -13,6 +13,7 @@ import Tab from '@material-ui/core/Tab';
 import { Typography, Grid } from '@material-ui/core';
 import drexelWhiteLogo from './containers/drexelWhiteLogo.png';
 import engineeringGoldWhitePrimary from './containers/engineeringGoldWhitePrimary.png';
+import gisaidLogo from './containers/gisaidLogo.png';
 import { withStyles } from '@material-ui/styles';
 require('./containers/tabs/styles.css');
 ReactDOM.render(
@@ -112,6 +113,14 @@ function AppTabs() {
               <StyledTab disableRipple style={tabStyling} value={1} label='Acknowledgements' />
               <StyledTab disableRipple style={tabStyling} value={2} label='About' />
             </StyledTabs>
+          </Grid>
+          <Grid item>
+          <h3 style="text-align:right">ISM </h3>
+          </Grid>
+          <Grid item display='flex' style={{ marginRight: '35px' }}>
+            <a href="https://www.gisaid.org/">
+              <img height='50px' src={gisaidLogo} />
+            </a>
           </Grid>
         </Grid>
       </div>
