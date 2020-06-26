@@ -102,7 +102,7 @@ function AppTabs() {
           </Grid>
           <Grid item>
             <Typography align='left' style={titleStyle}>
-              COVID-19 World Map
+              COVID-19 World Map of
             </Typography>
             <Typography align='left' style={titleStyle}>
               Informative Subtype Marker
@@ -117,12 +117,12 @@ function AppTabs() {
           </Grid>
           <Grid item>
             <Typography align='right' style={placeholderStyle}>
-              enabled by data from
+              ISM Map enabled by data from
             </Typography>
           </Grid>
           <Grid item>
             <Typography align='right' style={titleStyle}>
-              ISM
+              ISM World Map
             </Typography>
             <Typography align='right' style={titleStyle}>
               enabled by data from
