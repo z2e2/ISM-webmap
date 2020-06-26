@@ -115,7 +115,7 @@ function AppTabs() {
             </StyledTabs>
           </Grid>
           <Grid item>
-            <h3 style={{align:'right'}}>ISM </h3>
+            <h1 style={{align:'right' color:'white'}}>ISM </h1>
           </Grid>
           <Grid item display='flex' style={{ marginRight: '35px' }}>
             <a href="https://www.gisaid.org/">
