@@ -117,7 +117,7 @@ function AppTabs() {
           </Grid>
           <Grid item>
             <Typography align='right' style={placeholderStyle}>
-              ISM Map enabled by data from
+              ISM Map enabled data from
             </Typography>
           </Grid>
           <Grid item>
