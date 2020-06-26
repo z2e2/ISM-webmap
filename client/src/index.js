@@ -127,14 +127,7 @@ function AppTabs() {
       {selectedTab == 0 && <Webmap />}
       {selectedTab == 1 && (
         <div label='Acknowledgements' style={{marginLeft: '35px', marginRight: '35px'}}>
-          <h3>Acknowledgements list</h3>
-          <a
-            href='https://raw.githubusercontent.com/EESI/ISM/master/acknowledgement_table.csv'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            Click here to download list
-          </a>
+          <h3>Acknowledgements</h3>
           <p />
           <p align='justify'>
             We would like to thank GISAID and{' '}
@@ -148,7 +141,28 @@ function AppTabs() {
             <a href='https://www.gisaid.org/' target='_blank' rel='noopener noreferrer'>
               GISAID
             </a>{' '}
-            website.
+            website. A full list of authors, originating laboratories, and submitting laboratories
+            of sequences used in our research can be downloaded{' '}
+            <a
+              href='https://raw.githubusercontent.com/EESI/ISM/master/acknowledgement_table.csv'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              here
+            </a>
+            .
+          </p>
+          <p />
+          <p />
+          <p />
+          <p />
+          <p />
+          <p align='justify'>
+             GISAID data provided on this website is subject to GISAID’s {' '}
+            <a href='https://www.gisaid.org/registration/terms-of-use' target='_blank' rel='noopener noreferrer'>
+              Terms and Conditions
+            </a>
+            .
           </p>
         </div>
       )}
@@ -171,9 +185,9 @@ function AppTabs() {
             </a>
           </p>
           <p align='justify'>
-            The Covid-19 WebMap is a website created to display SARS-CoV-2 genotypes (ISMs) in an interactive way.
+            The COVID-19 World Map is a website created to display SARS-CoV-2 genotypes (ISMs) in an interactive way.
             This is done with the use of ISMs, which are described in the section below. The
-            interactive WebMap allows users to click on a certain country on the map, and visualize
+            interactive ISM Map allows users to click on a certain country on the map, and visualize
             important ISMs regarding a specific country. This data includes relative
             abundance graphs and ISM pie charts.
             <p />
@@ -218,7 +232,7 @@ function AppTabs() {
           <p align='justify'>
             This website is offered under the auspices of the College of Engineering, Drexel University
             <p />
-            <p>IT Staff:</p>
+            <p>IT Support:</p>
             <ul type='square'>
               <li>Andrew Marx, marx@drexel.edu</li>
               <li>Paul Dempsey, pfd36@drexel.edu</li>
