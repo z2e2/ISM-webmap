@@ -115,7 +115,12 @@ function AppTabs() {
             </StyledTabs>
           </Grid>
           <Grid item>
-            <h1 style={{align:'right', color:'white',paddingTop: '15px'}}>ISM </h1>
+            <Typography align='right' style={titleStyle}>
+              ISM
+            </Typography>
+            <Typography align='right' style={titleStyle}>
+              enabled by data from
+            </Typography>
           </Grid>
           <Grid item display='flex' style={{ marginRight: '35px' }}>
             <a href="https://www.gisaid.org/">
