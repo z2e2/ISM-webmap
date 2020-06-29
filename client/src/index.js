@@ -180,19 +180,40 @@ function AppTabs() {
       {selectedTab == 2 && (
         <div label='Info' style={{marginLeft: '35px', marginRight: '35px'}}>
           <h3>Project Information</h3>
+
           <p />
           <p align='justify'>
             <b>
-              <u>General Info</u>
+              <u>Informative Subtype Markers:</u>
             </b>{' '}
-            &rarr;{' '}
+            <a href='https://github.com/EESI/ISM' target='_blank' rel='noopener noreferrer'>
+              {' '}
+              Source Code
+            </a>
+          </p>
+          <p align='justify'>
+            Informative Subtype Markers (ISM) is an efficient framework for genetic subtyping of a
+            pandemic virus and is implemented for SARS-CoV-2, the novel coronavirus that causes
+            COVID-19. The use of ISMs permits subtyping individual SARS-CoV-2 virus genomes, and in
+            essence generating a signature that can be readily used to track viral evolution through
+            geography and time. Please find the reference paper at:{' '}
+            <a href='https://www.biorxiv.org/content/10.1101/2020.04.07.030759v4' target='_blank' rel='noopener noreferrer'>
+              Characterizing geographical and temporal dynamics of novel coronavirus SARS-CoV-2 using informative subtype markers
+            </a>.
+          </p>
+
+          <p />
+          <p align='justify'>
+            <b>
+              <u>Website Development:</u>
+            </b>{' '}
             <a
               href='https://github.com/z2e2/ISM-webmap'
               target='_blank'
               rel='noopener noreferrer'
             >
               {' '}
-              WebMap GitHub
+              Source Code
             </a>
           </p>
           <p align='justify'>
@@ -200,7 +221,10 @@ function AppTabs() {
             This is done with the use of ISMs, which are described in the section below. The
             interactive ISM Map allows users to click on a certain country on the map, and visualize
             important ISMs regarding a specific country. This data includes relative
-            abundance graphs and ISM pie charts.
+            abundance graphs and ISM pie charts. This website is maintained by {' '}
+            <a href='https://drexeleesi.com/' target='_blank' rel='noopener noreferrer'>
+              EESI laboratory
+            </a> at Drexel University.
             <p />
             <p>Website contributors:</p>
             <ul type='square'>
@@ -213,25 +237,6 @@ function AppTabs() {
               <li>Bahrad A. Sokhansanj</li>
               <li>Gail L. Rosen</li>
             </ul>
-          </p>
-
-          <p />
-          <p align='justify'>
-            <b>
-              <u>ISMs</u>
-            </b>{' '}
-            &rarr;{' '}
-            <a href='https://github.com/EESI/ISM' target='_blank' rel='noopener noreferrer'>
-              {' '}
-              ISM GitHub
-            </a>
-          </p>
-          <p align='justify'>
-            Informative Subtype Markers (ISM) is an efficient framework for genetic subtyping of a
-            pandemic virus and is implemented for SARS-CoV-2, the novel coronavirus that causes
-            COVID-19. The use of ISMs permits subtyping individual SARS-CoV-2 virus genomes, and in
-            essence generating a signature that can be readily used to track viral evolution through
-            geography and time.
           </p>
 
           <p />

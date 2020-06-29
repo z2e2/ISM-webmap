@@ -129,7 +129,7 @@ export const ISMLegend = () => {
                 />
               </Grid>
               <Grid item xs={11} style={ISMContainerStyle}>
-                <Typography style={{ marginLeft: '15px', fontSize: '10px' }}>{colorKey}</Typography>
+                <Typography style={{ marginLeft: '15px', fontSize: '16px' }}>{colorKey}</Typography>
               </Grid>
             </Grid>
           </Card>
