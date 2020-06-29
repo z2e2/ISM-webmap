@@ -155,7 +155,7 @@ function AppTabs() {
             website. A full list of authors, originating laboratories, and submitting laboratories
             of sequences used in our research can be downloaded{' '}
             <a
-              href='https://raw.githubusercontent.com/EESI/ISM/master/acknowledgement_table.csv'
+              href='https://github.com/z2e2/ISM-webmap/blob/master/acknowledgement_table.csv'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -197,7 +197,7 @@ function AppTabs() {
             COVID-19. The use of ISMs permits subtyping individual SARS-CoV-2 virus genomes, and in
             essence generating a signature that can be readily used to track viral evolution through
             geography and time. Please find the reference paper at:{' '}
-            <a href='https://www.biorxiv.org/content/10.1101/2020.04.07.030759v4' target='_blank' rel='noopener noreferrer'>
+            <a href='https://www.biorxiv.org/content/10.1101/2020.04.07.030759v4.full.pdf' target='_blank' rel='noopener noreferrer'>
               Characterizing geographical and temporal dynamics of novel coronavirus SARS-CoV-2 using informative subtype markers
             </a>.
           </p>
