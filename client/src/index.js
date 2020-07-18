@@ -39,6 +39,11 @@ function Webmap() {
             <Map setTooltipContent={setTooltip} setSelectedContent={setSelected} />
             <ReactTooltip>{tooltip}</ReactTooltip>
           </Paper>
+          <p align='justify'>
+          GISAID data provided on this website is subject to{' '}
+          <a href='https://www.gisaid.org/registration/terms-of-use/' target='_blank'  rel='noopener noreferrer'>
+          GISAID’s Terms and Conditions
+          </p>.
         </Grid>
       </Grid>
     </div>
@@ -146,6 +151,7 @@ function AppTabs() {
             <a href='https://www.gisaid.org/about-us/mission/' target='_blank' rel='noopener noreferrer'>
               promotes the rapid sharing of data whilst protecting the acknowledgement rights of data providers
             </a>{' '}
+          </p>
           <p align='justify'>
             As per requirements from GISAID, if you intend to publish research using the sequence data from GISAID,
             or the derived data available from Informative Marker Subtyping (ISM) Platform, you must accept the{' '}
@@ -181,12 +187,10 @@ function AppTabs() {
           <p />
           <p />
           <p align='justify'>
-             GISAID data provided on this website is subject to GISAID’s {' '}
-            <a href='https://www.gisaid.org/registration/terms-of-use' target='_blank' rel='noopener noreferrer'>
-              Terms and Conditions
-            </a>
-            .
-          </p>
+          GISAID data provided on this website is subject to{' '}
+          <a href='https://www.gisaid.org/registration/terms-of-use/' target='_blank'  rel='noopener noreferrer'>
+          GISAID’s Terms and Conditions
+          </p>.
         </div>
       )}
       {selectedTab == 2 && (
@@ -266,6 +270,11 @@ function AppTabs() {
               <li>Paul Dempsey, pfd36@drexel.edu</li>
             </ul>
           </p>
+          <p align='justify'>
+          GISAID data provided on this website is subject to{' '}
+          <a href='https://www.gisaid.org/registration/terms-of-use/' target='_blank'  rel='noopener noreferrer'>
+          GISAID’s Terms and Conditions
+          </p>.
         </div>
       )}
     </>
