@@ -41,12 +41,6 @@ function Webmap() {
           </Paper>
         </Grid>
       </Grid>
-      <p align='center' style="font-size:12px; position: absolute; bottom: 0; left: 0; width: 100%;">
-        GISAID data provided on this website is subject to{' '}
-        <a href='https://www.gisaid.org/registration/terms-of-use/' target='_blank'  rel='noopener noreferrer'>
-        GISAID’s Terms and Conditions
-        </a>.
-      </p>
     </div>
   );
 }
@@ -180,6 +174,12 @@ function AppTabs() {
               Terms and Conditions
             </a>
             .
+          </p>
+          <p align='center' style="font-size:12px; position: absolute; bottom: 0; left: 0; width: 100%;">
+            GISAID data provided on this website is subject to{' '}
+            <a href='https://www.gisaid.org/registration/terms-of-use/' target='_blank'  rel='noopener noreferrer'>
+            GISAID’s Terms and Conditions
+            </a>.
           </p>
         </div>
       )}
