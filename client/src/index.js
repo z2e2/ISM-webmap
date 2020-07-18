@@ -39,11 +39,12 @@ function Webmap() {
             <Map setTooltipContent={setTooltip} setSelectedContent={setSelected} />
             <ReactTooltip>{tooltip}</ReactTooltip>
           </Paper>
-          <p align='justify'>
+          <p align='center' style={titleStyle}>
           GISAID data provided on this website is subject to{' '}
           <a href='https://www.gisaid.org/registration/terms-of-use/' target='_blank'  rel='noopener noreferrer'>
           GISAID’s Terms and Conditions
-          </p>.
+          </a>.
+          </p>
         </Grid>
       </Grid>
     </div>
@@ -62,7 +63,7 @@ const tabStyling = {
 
 const titleStyle = { fontSize: '16px', color: '#FFF', fontWeight: 500 };
 const placeholderStyle = { fontSize: '16px', color: '#07294D', fontWeight: 500 };
-
+const footnoteStyle = { fontSize: '12px'};
 const StyledTabs = withStyles({
   root: {
     marginLeft: '20px'
@@ -186,11 +187,12 @@ function AppTabs() {
           <p />
           <p />
           <p />
-          <p align='justify'>
+          <p align='center' style={titleStyle}>
           GISAID data provided on this website is subject to{' '}
           <a href='https://www.gisaid.org/registration/terms-of-use/' target='_blank'  rel='noopener noreferrer'>
           GISAID’s Terms and Conditions
-          </p>.
+          </a>.
+          </p>
         </div>
       )}
       {selectedTab == 2 && (
@@ -270,11 +272,12 @@ function AppTabs() {
               <li>Paul Dempsey, pfd36@drexel.edu</li>
             </ul>
           </p>
-          <p align='justify'>
+          <p align='center' style={titleStyle}>
           GISAID data provided on this website is subject to{' '}
           <a href='https://www.gisaid.org/registration/terms-of-use/' target='_blank'  rel='noopener noreferrer'>
           GISAID’s Terms and Conditions
-          </p>.
+          </a>.
+          </p>
         </div>
       )}
     </>
