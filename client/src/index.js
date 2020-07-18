@@ -41,12 +41,6 @@ function Webmap() {
           </Paper>
         </Grid>
       </Grid>
-      // <p align='center' style="font-size:12px; position: absolute; bottom: 0; left: 0; width: 100%;">
-      // GISAID data provided on this website is subject to{' '}
-      //  <a href='https://www.gisaid.org/registration/terms-of-use/' target='_blank'  rel='noopener noreferrer'>
-      //  GISAID’s Terms and Conditions
-      //  </a>.
-      // </p>
     </div>
   );
 }
@@ -147,11 +141,39 @@ function AppTabs() {
           <h3>Acknowledgements</h3>
           <p />
           <p align='justify'>
-             Informative Marker Subtyping (ISM) Platform is enabled by hCoV-19 genome sequence data
-             from the GISAID EpiCoV<sup>TM</sup> database. The GISAID organisation {' '}
-            <a href='https://www.gisaid.org/about-us/mission/' target='_blank' rel='noopener noreferrer'>
-              promotes the rapid sharing of data whilst protecting the acknowledgement rights of data providers
-            </a>.
+            We would like to thank GISAID and{' '}
+            <a href='https://github.com/nextstrain' target='_blank' rel='noopener noreferrer'>
+              Nextstrain
+            </a>{' '}
+            for sharing the sequence data and metadata. We also gratefully acknowledge the authors,
+            originating and submitting laboratories of the sequences from GISAID’s EpiFlu Database
+            on which this research is based. All submitters of data may be contacted directly via
+            the{' '}
+            <a href='https://www.gisaid.org/' target='_blank' rel='noopener noreferrer'>
+              GISAID
+            </a>{' '}
+            website. A full list of authors, originating laboratories, and submitting laboratories
+            of sequences used in our research can be downloaded{' '}
+            <a
+              href='https://github.com/z2e2/ISM-webmap/blob/master/acknowledgement_table.csv'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              here
+            </a>
+            .
+          </p>
+          <p />
+          <p />
+          <p />
+          <p />
+          <p />
+          <p align='justify'>
+             GISAID data provided on this website is subject to GISAID’s {' '}
+            <a href='https://www.gisaid.org/registration/terms-of-use' target='_blank' rel='noopener noreferrer'>
+              Terms and Conditions
+            </a>
+            .
           </p>
         </div>
       )}
