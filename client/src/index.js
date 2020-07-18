@@ -24,7 +24,7 @@ ReactDOM.render(
   </ApolloProvider>,
   document.getElementById('root')
 );
-
+const footnoteStyle = {fontSize: '12px', position: 'absolute', bottom: 0, left: 0, width: 100%};
 function Webmap() {
   const [tooltip, setTooltip] = useState('');
   const [selected, setSelected] = useState('');
@@ -39,7 +39,7 @@ function Webmap() {
             <Map setTooltipContent={setTooltip} setSelectedContent={setSelected} />
             <ReactTooltip>{tooltip}</ReactTooltip>
           </Paper>
-          <p align='center' style={titleStyle}>
+          <p align='center' style={footnoteStyle}>
           GISAID data provided on this website is subject to{' '}
           <a href='https://www.gisaid.org/registration/terms-of-use/' target='_blank'  rel='noopener noreferrer'>
           GISAID’s Terms and Conditions
@@ -63,7 +63,6 @@ const tabStyling = {
 
 const titleStyle = { fontSize: '16px', color: '#FFF', fontWeight: 500 };
 const placeholderStyle = { fontSize: '16px', color: '#07294D', fontWeight: 500 };
-const footnoteStyle = { fontSize: '12px'};
 const StyledTabs = withStyles({
   root: {
     marginLeft: '20px'
@@ -187,7 +186,7 @@ function AppTabs() {
           <p />
           <p />
           <p />
-          <p align='center' style={titleStyle}>
+          <p align='center' style={footnoteStyle}>
           GISAID data provided on this website is subject to{' '}
           <a href='https://www.gisaid.org/registration/terms-of-use/' target='_blank'  rel='noopener noreferrer'>
           GISAID’s Terms and Conditions
@@ -272,7 +271,7 @@ function AppTabs() {
               <li>Paul Dempsey, pfd36@drexel.edu</li>
             </ul>
           </p>
-          <p align='center' style={titleStyle}>
+          <p align='center' style={footnoteStyle}>
           GISAID data provided on this website is subject to{' '}
           <a href='https://www.gisaid.org/registration/terms-of-use/' target='_blank'  rel='noopener noreferrer'>
           GISAID’s Terms and Conditions
