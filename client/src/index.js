@@ -24,7 +24,7 @@ ReactDOM.render(
   </ApolloProvider>,
   document.getElementById('root')
 );
-const footnoteStyle = {fontSize: '12px', position: 'absolute', bottom: 0, left: 0, width: 100%};
+const footnoteStyle = {fontSize: '12px', marginLeft: '35px', marginRight: '35px'};
 function Webmap() {
   const [tooltip, setTooltip] = useState('');
   const [selected, setSelected] = useState('');
