@@ -25,6 +25,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 const footnoteStyle = {fontSize: '12px', marginLeft: '35px', marginRight: '35px'};
+const mapDisclaimer = {fontSize: '10px', marginLeft: '15px', marginRight: '15px'};
 function Webmap() {
   const [tooltip, setTooltip] = useState('');
   const [selected, setSelected] = useState('');
@@ -39,6 +40,12 @@ function Webmap() {
             <Map setTooltipContent={setTooltip} setSelectedContent={setSelected} />
             <ReactTooltip>{tooltip}</ReactTooltip>
           </Paper>
+          <p align='center' style={mapDisclaimer}>
+          The world map is only for ISM distribution illustration purposes and does not
+          imply the expression of any opinion whatsoever concerning the legal status of
+          any country, area or territory or of its authorities, or concerning the
+          delimitation of its borders.
+          </p>
           <p align='center' style={footnoteStyle}>
           GISAID data provided on this website is subject to{' '}
           <a href='https://www.gisaid.org/registration/terms-of-use/' target='_blank'  rel='noopener noreferrer'>
@@ -210,8 +217,8 @@ function AppTabs() {
           </p>
           <p align='justify'>
             Informative Subtype Markers (ISM) is an efficient framework for genetic subtyping of a
-            pandemic virus and is implemented for SARS-CoV-2, the novel coronavirus that causes
-            COVID-19. The use of ISMs permits subtyping individual SARS-CoV-2 virus genomes, and in
+            pandemic virus and is implemented for SARS-CoV-2 (hCoV-19/GISAID), the novel coronavirus that causes
+            COVID-19. The use of ISMs permits subtyping individual SARS-CoV-2 (hCoV-19/GISAID) virus genomes, and in
             essence generating a signature that can be readily used to track viral evolution through
             geography and time. Please find the reference paper at:{' '}
             <a href='https://www.biorxiv.org/content/10.1101/2020.04.07.030759v4.full.pdf' target='_blank' rel='noopener noreferrer'>
@@ -234,7 +241,7 @@ function AppTabs() {
             </a>
           </p>
           <p align='justify'>
-            The COVID-19 World Map is a website created to display SARS-CoV-2 genotypes (ISMs) in an interactive way.
+            The COVID-19 World Map is a website created to display SARS-CoV-2 (hCoV-19/GISAID) genotypes (ISMs) in an interactive way.
             This is done with the use of ISMs, which are described in the section below. The
             interactive ISM Map allows users to click on a certain country on the map, and visualize
             important ISMs regarding a specific country. This data includes relative
